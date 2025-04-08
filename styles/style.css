@@ -10,6 +10,15 @@ body {
 .container {
     padding: 0px 156px;
 }
+/* Button common style */
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+}
 
 /* Header Styling */
 header {
@@ -46,4 +55,25 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+/* Sign up section */
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px 0px;
+    margin: 78px 0px;
+    border-radius: 18px;
+}
+
+.sign-up h2, .sign-up p {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-btn {
+    border-color: #f9faf8;
 }
