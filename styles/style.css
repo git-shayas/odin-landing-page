@@ -8,7 +8,7 @@ body {
 
 /* General Container for padding from the edges */
 .container {
-    padding: 0px 156px;
+    padding: 0px 250px;
 }
 /* Button common style */
 button {
@@ -119,4 +119,37 @@ footer {
     margin: 0;
     display: block;
     width: 150px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .left, .hero .right {
+    flex: 1;
+    padding: 24px 0px;
+}
+
+.hero img {
+    width: 100%;
+    height: 254px;
 }
