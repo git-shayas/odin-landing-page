@@ -77,3 +77,46 @@ footer {
 .sign-up-btn {
     border-color: #f9faf8;
 }
+
+/* Information section */
+.information {
+    margin: 0px 150px;
+    padding: 78px 0px;
+}
+
+.information h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.information .flex-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.information .flex-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information .flex-card figure {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border: #3882f6 solid 2px;
+    border-radius: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.information p {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 150px;
+}
