@@ -80,7 +80,7 @@ footer {
 
 /* Information section */
 .information {
-    margin: 0px 150px;
+    margin: 0px 85px;
     padding: 78px 0px;
 }
 
@@ -94,7 +94,7 @@ footer {
 
 .information .flex-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
